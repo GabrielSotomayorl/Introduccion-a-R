@@ -26,7 +26,7 @@ z<-x^2 #podemos guaradar los resultados como objetos
 z
 #También podemos realizar opreaciones lógicas
 x>y 
-15==x+y #Para restablecer una igualdad usamos doble signo =
+15==x+y #Para establecer una igualdad usamos doble signo =
 16>x+y
 
 #Creación de una variable. "Edad". mediante la función concatenar "c()",
@@ -119,7 +119,7 @@ cep<- read_spss("Encuesta CEP 83 May 2019 v1") #error por extensión del archivo
 cep<- read_spss("Encuesta CEP 83 May 2019 v1.sav")
 
 
-#para seleccionar una varaible de uan base de datos usamos $
+#para seleccionar una varaible de una base de datos usamos $
 cep$GSE #base$variable
 #Tambien podemos usar corchetes base[filas,columnas]
 cep[,3]
